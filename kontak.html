@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Limbo's GREAT Hotwheels Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+    <header class="banner-header">
+        <div class="header-content">
+            <p class="eyebrow">YOUR MINIATURE CAR DESTINATION</p>
+            <h1>Limbo's <span>GREAT</span> Hotwheels Store</h1>
+            <p class="tagline">Small Cars. Big Passion. Endless Adventures.</p>
+        </div>
+    </header>
+
+      <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="profil.html"><i class="fas fa-user"></i> Profile</a>
+        <a href="products.html"><i class="fas fa-car"></i> Products</a>
+        <a href="kontak.html" class="active"><i class="fas fa-envelope"></i> Contact</a>
+        <a href="credit.html"><i class="fas fa-award"></i> Credits
+        </a>
+    </nav>
+
+    <br>
+
+    <!-- MAIN CONTENT -->
+    <main class="contact-page"> 
+
+        <!-- PAGE INTRODUCTION -->
+        <section class="contact-intro">
+            <p class="section-label">LET'S TALK CARS</p>
+            <h2>Contact <span>& Order</span></h2>
+            <p>
+                Found your dream car? Let's make it yours!
+                Fill in the form below to place your order.
+            </p>
+        </section>
+
+        <!-- ORDER FORM + CONTACT INFORMATION -->
+        <section class="contact-layout">
+
+            <!-- ORDER FORM -->
+            <div class="order-card">
+
+                <div class="card-heading">
+                    <div>
+                        <p class="section-label">READY TO COLLECT?</p>
+                        <h3>Place Your Order</h3>
+                    </div>
+                    <span class="order-icon" aria-hidden="true">🏎️</span>
+                </div>
+
+                <p class="form-description">
+                    Complete the details below. Fields marked with *
+                    are required.
+                </p>
+
+                <form
+                    class="order-form"
+                    action="https://formsubmit.co/reyfano.alfarezel@gmail.com"
+                    method="POST"
+                >
+
+                    <!-- FORMSUBMIT SETTINGS -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject"
+                           value="New Hot Wheels Store Order">
+                    <input type="hidden" name="_template" value="table">
+
+                    <!-- CUSTOMER NAME -->
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input
+                            id="name"
+                            type="text"
+                            name="name"
+                            placeholder="e.g. Allyzea Zen P. Ligue"
+                            autocomplete="name"
+                            maxlength="100"
+                            required
+                        >
+                    </div>
+
+                    <!-- CUSTOMER EMAIL -->
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input
+                            id="email"
+                            type="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required
+                        >
+                    </div>
+
+                    <!-- CAR MODEL -->
+                    <div class="form-group">
+                        <label for="car">Car Model *</label>
+                        <input
+                            id="car"
+                            type="text"
+                            name="car"
+                            placeholder="e.g. Nissan Skyline GT-R"
+                            maxlength="150"
+                            required
+                        >
+                        <small>
+                            Enter the Hot Wheels car you want to order.
+                        </small>
+                    </div>
+
+                    <!-- ADDITIONAL MESSAGE -->
+                    <div class="form-group">
+                        <label for="message">
+                            Additional Notes
+                            <span class="optional">(Optional)</span>
+                        </label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="3"
+                            placeholder="Color preference or other requests..."
+                            maxlength="1000"
+                        ></textarea>
+                    </div>
+
+                    <!-- SUBMIT -->
+                    <button type="submit" class="submit-button">
+                        Place My Order <span aria-hidden="true">→</span>
+                    </button>
+
+                    <p class="form-note">
+                        Please check your details before submitting.
+                    </p>
+
+                </form>
+            </div>
+
+            <!-- CONTACT INFORMATION -->
+            <aside class="contact-sidebar">
+
+                <div class="info-card">
+                    <p class="section-label">NEED HELP?</p>
+                    <h3>Let's Connect</h3>
+                    <p>
+                        Have questions about a car or your order?
+                        Send us your details using the order form.
+                    </p>
+
+                    <div class="info-item">
+                        <span class="info-icon" aria-hidden="true">📦</span>
+                        <div>
+                            <h4>Easy Ordering</h4>
+                            <p>Tell us which car and how many you want.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon" aria-hidden="true">✉️</span>
+                        <div>
+                            <h4>Email Orders</h4>
+                            <p>Your submitted form is sent through FormSubmit.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon" aria-hidden="true">🏁</span>
+                        <div>
+                            <h4>For Collectors</h4>
+                            <p>Let us know which miniature car you're looking for.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MAP -->
+                <div class="map-card">
+                    <p class="section-label">FIND THE AREA</p>
+                    <h3>Our Map</h3>
+
+                    <div class="map-frame">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126747.03430933646!2d107.59551657176031!3d-6.909151298784326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1791615777877!5m2!1sid!2sid"
+                            title="Map of Bandung, West Java"
+                            loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <p class="map-note">
+                        The map currently shows Bandung, West Java.
+                        Confirm that this is the correct area for your store.
+                    </p>
+                </div>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+    <!-- AI ASSISTANT BUTTON -->
+        <button id="aiAssistantButton" onclick="openAI()">
+            <i class="fas fa-robot"></i>
+            <span>AI Assistant</span>
+        </button>
+
+        <!-- AI ASSISTANT -->
+        <div id="aiModal">
+            <div class="ai-modal-box">
+                <button class="close-button" onclick="closeAI()" aria-label="Close AI Assistant">&times;</button>
+
+                <div class="ai-modal-header">
+                    <div class="ai-avatar">
+                        <img src="robot-jones.png" alt="Robot Jones">
+                    </div>
+                    <div class="ai-header-text">
+                        <span>AI ASSISTANT</span>
+                        <h2>Ask About Hot Wheels</h2>
+                    </div>
+                </div>
+
+                <div id="chatMessages" class="chat-messages">
+                    <div class="message ai-message">
+                        <div class="message-avatar">
+                            <img src="robot-jones.png" alt="Robot Jones">
+                        </div>
+                        <div class="message-text">
+                            Hi my name is Robot Jones im a Robot from Polynuex Middle School United States, Ask me anything!! i know anything
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input">
+                    <input type="text" id="questionInput" placeholder="Ask something" autocomplete="off" onkeydown="handleEnter(event)">
+                    <button onclick="SendQuestion()" aria-label="Send question">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div> <br>
+
+          <div class="fred">
+            <img src="fred-gif.gif" alt="Fred">
+            <h1>Fred Says..</h1> <br>
+            <p> Fred would love to come to your home!! to see if you approved our hotwheels store and the quality we have!!
+                i'm sure you all <br> have a great time in our store and our cars!!          
+            </p>
+        </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy; 2026 Limbo's GREAT Hotwheels Store.
+            All Rights Reserved.
+        </p>
+        <p class="footer-tagline">KEEP COLLECTING. KEEP RACING.</p>
+    </footer>
+
+</body>
+</html>

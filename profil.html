@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profil | Limbo's GREAT Hotwheels Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="banner-header">
+        <div class="header-content">
+            <p class="eyebrow">YOUR MINIATURE CAR DESTINATION</p>
+            <h1>Limbo's <span>GREAT</span> Hotwheels Store</h1>
+            <p class="tagline">Small Cars. Big Passion. Endless Adventures.</p>
+        </div>
+    </header>
+
+     <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <a href="profil.html" class="active"><i class="fas fa-user"></i> Profile</a>
+        <a href="products.html"><i class="fas fa-car"></i> Products</a>
+        <a href="kontak.html"><i class="fas fa-envelope"></i> Contact</a>
+        <a href="credit.html"><i class="fas fa-award"></i> Credits
+        </a>
+    </nav>
+
+    <br>
+
+    <!-- About Us -->
+    <main id="about">
+        <section class="about-section">
+
+            <div class="about-content">
+                <p class="section-label">WHO WE ARE</p>
+
+                <h2>More Than Just <span>A Small Store.</span></h2>
+
+                <p class="about-description">
+                    Welcome to Limbo's GREAT Hotwheels Store, your destination
+                    for awesome Hot Wheels cars and collectibles!
+                </p>
+
+                <p class="about-description">
+                    We are passionate about bringing collectors and car
+                    enthusiasts together through our love of miniature cars.
+                    Whether you're a seasoned collector or just starting your
+                    collection, we're here to help you discover your next
+                    favorite ride.
+                </p>
+
+                <p class="about-description">
+                    From iconic designs to exciting new additions, every car
+                    has a story to tell. We believe collecting Hot Wheels
+                    isn't just a hobby — it's a passion worth sharing.
+                </p>
+
+                <a href="products.html" target="konten" class="cta-button">
+                    EXPLORE OUR CARS &rarr;
+                </a>
+            </div>
+
+            <div class="about-image">
+                <div class="image-frame">
+                    <img
+                        src="fred.png"
+                        alt="Hot Wheels collection at Limbo's GREAT Hotwheels Store"
+                        class="about-us"
+                    >
+                </div>
+                <p class="image-caption">FIND YOUR NEXT FAVORITE RIDE.</p>
+            </div>
+
+        </section>
+
+        <!-- Store Highlights -->
+        <section class="features">
+            <div class="feature-card">
+                <h3>Awesome Cars</h3>
+                <p>Discover cool designs for your collection.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Collector's Passion</h3>
+                <p>Made for people who love miniature cars.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Friendly Service</h3>
+                <p>We're happy to help you find your next car.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- AI ASSISTANT BUTTON -->
+        <button id="aiAssistantButton" onclick="openAI()">
+            <i class="fas fa-robot"></i>
+            <span>AI Assistant</span>
+        </button>
+
+        <!-- AI ASSISTANT -->
+        <div id="aiModal">
+            <div class="ai-modal-box">
+                <button class="close-button" onclick="closeAI()" aria-label="Close AI Assistant">&times;</button>
+
+                <div class="ai-modal-header">
+                    <div class="ai-avatar">
+                        <img src="robot-jones.png" alt="Robot Jones">
+                    </div>
+                    <div class="ai-header-text">
+                        <span>AI ASSISTANT</span>
+                        <h2>Ask About Hot Wheels</h2>
+                    </div>
+                </div>
+
+                <div id="chatMessages" class="chat-messages">
+                    <div class="message ai-message">
+                        <div class="message-avatar">
+                            <img src="robot-jones.png" alt="Robot Jones">
+                        </div>
+                        <div class="message-text">
+                            Hi my name is Robot Jones im a Robot from Polynuex Middle School United States, Ask me anything!! i know anything
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input">
+                    <input type="text" id="questionInput" placeholder="Ask something" autocomplete="off" onkeydown="handleEnter(event)">
+                    <button onclick="SendQuestion()" aria-label="Send question">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div> <br>
+
+        <div class="fred">
+            <img src="fred-gif.gif" alt="Fred">
+            <h1>Fred Says..</h1> <br>
+            <p>Hi
+            </p>
+        </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Limbo's GREAT Hotwheels Store. All Rights Reserved.</p>
+        <p class="footer-tagline">KEEP COLLECTING. KEEP RACING.</p>
+    </footer>
+
+</body>
+</html>
