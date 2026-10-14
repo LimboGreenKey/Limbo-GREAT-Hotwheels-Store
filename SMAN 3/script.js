@@ -105,7 +105,7 @@ function addAIMessage(message) {
 
     messageElement.innerHTML = `
         <div class="message-avatar">
-            <img src="Robot Jones.png" alt="Robot Jones">
+            <img src="robot-jones.png" alt="Robot Jones">
         </div>
 
         <div class="message-text">
@@ -341,7 +341,7 @@ function SendQuestion() {
 
     thinkingMessage.innerHTML = `
         <div class="message-avatar">
-            <img src="Robot Jones.png" alt="Robot Jones">
+            <img src="robot-jones.png" alt="Robot Jones">
         </div>
 
         <div class="message-text">
