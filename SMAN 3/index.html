@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Limbo's GREAT Hotwheels Store</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+     <!-- Header -->
+    <header class="banner-header">
+        <div class="header-content">
+            <p class="eyebrow">YOUR MINIATURE CAR DESTINATION</p>
+            <h1>Limbo's <span>GREAT</span> Hotwheels Store</h1>
+            <p class="tagline">Small Cars. Big Passion. Endless Adventures.</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+        <a href="profil.html"><i class="fas fa-user"></i> Profile</a>
+        <a href="products.html"><i class="fas fa-car"></i> Products</a>
+        <a href="kontak.html"><i class="fas fa-envelope"></i> Contact</a>
+        <a href="credit.html"><i class="fas fa-award"></i> Credits
+        </a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <section class="welcome">
+
+            <h2>Content Area</h2>
+
+            <h1 class="products">
+                Welcome!
+                <br>
+                What are you looking for?
+            </h1>
+
+            <div class="items">
+
+                <div class="item">
+
+                    <img
+                        src="Hot Wheels Collection.jpg"
+                        alt="Hot Wheels Collection"
+                        class="landscape-home"
+                    > 
+
+                </div>
+
+            </div>
+
+        </section> <br>
+
+        <!-- Video Section -->
+
+        <h1 class="products">Showcase Video About Us</h1>
+
+        <div class="video-container">
+            <iframe
+            src="https://www.youtube.com/embed/eKmQtHhfGx8"
+            title="YouTube video player"
+            allowfullscreen>
+        </iframe>
+        </div>
+
+
+        <!-- Featured Products -->
+
+        <section class="featured-products">
+
+            <h1 class="products">
+                Featured Products
+            </h1>
+
+            <div class="items">
+
+                <!-- Product 1 -->
+
+                <article class="item">
+
+                    <img
+                        src="Hot Wheels Pagani Huayra.png"
+                        alt="Hot Wheels Pagani Huayra"
+                        class="landscape"
+                    >
+
+                    <h3>Pagani Huayra</h3>
+
+                    <p class="price">
+                        Rp50,000
+                    </p>
+
+                </article>
+
+
+                <!-- Product 2 -->
+
+                <article class="item">
+
+                    <img
+                        src="Hot Wheels Toyota 86 GT.png"
+                        alt="Hot Wheels Toyota GR86 Cup"
+                        class="landscape"
+                    >
+
+                    <h3>Toyota GR86 Cup</h3>
+
+                    <p class="price">
+                        Rp65,000
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- AI ASSISTANT BUTTON -->
+        <button id="aiAssistantButton" onclick="openAI()">
+            <i class="fas fa-robot"></i>
+            <span>AI Assistant</span>
+        </button>
+
+        <!-- AI ASSISTANT -->
+        <div id="aiModal">
+            <div class="ai-modal-box">
+                <button class="close-button" onclick="closeAI()" aria-label="Close AI Assistant">&times;</button>
+
+                <div class="ai-modal-header">
+                    <div class="ai-avatar">
+                        <img src="Robot Jones.png" alt="Robot Jones">
+                    </div>
+                    <div class="ai-header-text">
+                        <span>AI ASSISTANT</span>
+                        <h2>Ask About Hot Wheels</h2>
+                    </div>
+                </div>
+
+                <div id="chatMessages" class="chat-messages">
+                    <div class="message ai-message">
+                        <div class="message-avatar">
+                            <img src="Robot Jones.png" alt="Robot Jones">
+                        </div>
+                        <div class="message-text">
+                            Hi my name is Robot Jones im a Robot from Polynuex Middle School United States, Ask me anything!! i know anything
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input">
+                    <input type="text" id="questionInput" placeholder="Ask something" autocomplete="off" onkeydown="handleEnter(event)">
+                    <button onclick="SendQuestion()" aria-label="Send question">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="fred">
+            <img src="Fred GIF.gif" alt="Fred">
+            <h1>Fred Says..</h1> <br>
+            <p>As the President of Caronesia, i do admit it, its really hard keeping a hotwheels store while fighthing
+                in a war with Cato Empire, <br> and how is the country economy is falling, but after all of those horrible days
+                especially on 18 December 2022, keep buy our <br> product in Limbo's GREAT Hotwheels Store!!!
+            </p>
+        </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            &copy; 2026 Limbo GREAT Hot Wheels Store.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+</body>
+</html>
